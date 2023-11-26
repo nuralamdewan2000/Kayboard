@@ -1,0 +1,46 @@
+.box1{
+    background-color: #42bee7;
+    width: 75%;
+    height: 350px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.keyboardBody{
+    background-color: #292b2a ;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(12, 60px);
+    grid-template-rows: repeat(5, 35px);
+    gap: 15px;
+    padding: 30px;
+} 
+.box1>div>div{
+    background-color: #2e3538 ;
+    color: #4bb1d4;
+   
+    border-radius: 5px;
+    text-align: center;
+}
+.keyboardBody>div:nth-child(35){
+    grid-area: 3/11/4/span 2;
+}
+.keyboardBody>div:nth-child(46){
+    grid-area: 4/11/4/span 2;
+}
+.keyboardBody>div:nth-child(51){
+    grid-area: 5/5/6/span 4;
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(58, 144, 198);
+    
+}
